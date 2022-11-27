@@ -17,6 +17,6 @@ function balloon(x,y,t,bc,fc){
   rect(x, y, x + w + p * 2, y + h + p * 2);
   triangle(x + w + p * 2 - 40, y + h + p * 2, x + w + p * 2 - 15, y + h + p * 2, x + w + p * 2, y + h + p * 2 + 30)
   fill(fc);
-  text(t, p, h + p);
+  text(t, x + p, y + h + p);
   
 }
